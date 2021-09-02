@@ -1,0 +1,39 @@
+body {
+    background-color:aliceblue
+} 
+h1 {
+    color:brown
+} 
+h3 {
+    color: brown
+} 
+.Index title {
+color:blue;
+font size: 40px;    
+}
+in-range {
+    max-width: 100vw;
+}
+
+@media (min-width: 576px)
+h1 {
+    font size: 40px;
+} 
+>.Index_list li {
+    background-color: cornsilk;
+    flex 1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 100;
+    color: darkgreen;
+} 
+.Special_item {
+    background-color: darksalmon !important;
+} 
+.Index_list {
+    margin-top: 0%;
+    padding: 0%;
+}
