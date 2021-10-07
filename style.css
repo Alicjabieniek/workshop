@@ -50,5 +50,58 @@ body {
 
 .intro_contentBtn:hover {
   background: white !important;
-  transform: scale(1.12);
+  transform: scale(1.12); 
+} 
+
+.intro_couple { 
+  background-image: url('https://i1.wp.com/bruiloftinspiratie.nl/wp-content/uploads/2016/12/Inspiratie-1_Bruiloft-Inspiratie.jpg?resize=0%2C0&strip=all&ssl=1');
+  justify-content: right; 
+  margin-left: 500px; 
+  width: 60%; 
+  background-position: right; 
+  height: 55vh; 
+  vertical-align: text-top; 
+  background-repeat: no-repeat; 
+  display: flex; 
+   
+  
+} 
+ 
+.intro_decor {
+  font-size: 40px; 
+  font-weight: 700; 
+  letter-spacing: 1.1px; 
+  margin: 20px 0; 
+  padding-left: 80px; 
+  padding-top: 0px; 
+  padding-bottom: 0px; 
+  vertical-align: super; 
+
+
 }
+
+.intro_text { 
+  font-size: 18px; 
+  color:black; 
+  letter-spacing: 1,1px; 
+  line-height: 25px; 
+  font-weight: 400;
+  padding-left: 100px;  
+  text-align:left; 
+  width: 300px;
+  margin-bottom: 0px; 
+  vertical-align: text-top;
+  
+}   
+
+ .intro_border-left { 
+   color:black;
+   height: 60px; 
+   padding:inherit; 
+   vertical-align: text-top; 
+   display: flex;
+ }
+
+
+
+
