@@ -1,0 +1,86 @@
+.Index_bucket {
+  width: 100%;
+  height: 2000px;
+  background: lightcyan;
+  display: flex;
+  padding: 40px;
+  gap: 30px;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.Blackborder :before {
+  content: "Container1";
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: black; 
+}
+
+.Container1 { 
+  font-size: 30px;
+  font-weight: 700; 
+  color: black; 
+  width: 300px;  
+  position: relative;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+   padding-left: 30px;
+  
+}
+:before {
+  box-sizing: border-box; 
+
+}  
+:after{
+  box-sizing: border-box; 
+  } 
+
+.intro_couple { 
+  float: left;
+  list-style: none;
+  position: relative;
+  margin-right: 30px; 
+  width: 300px; 
+}  
+.Blackborder :before {
+  content: "Container3";
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: black; 
+}
+ :before {
+    box-sizing: border-box;  
+    
+  } 
+.Container2 {
+font-size: 30px;
+font-weight: 700; 
+color: black; 
+width: 300px;  
+position: relative;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+ padding-left: 30px; 
+}
+
+:after{
+  box-sizing: border-box; 
+  } 
