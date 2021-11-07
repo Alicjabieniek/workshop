@@ -1,9 +1,30 @@
-.circle.img {  
-  width: 200px; 
-  height: 200px; 
-  border-radius: 50%; 
-  background-image: url(https://149619331.v2.pressablecdn.com/wp-content/uploads/2020/02/roses44.jpg); 
-} 
+   body {
+     padding: 0; 
+     margin: 0;
+   }
+   .container {  
+   height: 100vw; 
+   width: 100vw;
+   background: white; 
+   display: flex; 
+   justify-content: space-around; 
+   align-items: center; 
+    
+ }
+ .circle.img {  
+  width: 250px; 
+  height: 250px; 
+  border-radius: 150px; 
+  -webkit-border-radius: 150px; 
+  -moz-border-radius:50%;
+  background-image: url(https://149619331.v2.pressablecdn.com/wp-content/uploads/2020/02/roses44.jpg) no-repeat; 
+}  
+
+.circle.img img { 
+  opacity: 0;
+  filter: alpha(opacity=0);
+  }  
+
 
 .circle.ring { 
   width: 100px;
@@ -36,6 +57,7 @@
   height: 25px; 
   left: 50%; 
   border: 10px solid pink;  
+  position: relative;
   
 }   
 
