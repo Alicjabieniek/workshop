@@ -1,84 +1,78 @@
-   body {
-     padding: 0; 
-     margin: 0;
-   }
-   .container {  
-   height: 100vw; 
-   width: 100vw;
-   background: white; 
-   display: flex; 
-   justify-content: space-around; 
-   align-items: center; 
-    
- }
- .circle.img {  
-  width: 250px; 
-  height: 250px; 
-  border-radius: 150px; 
-  -webkit-border-radius: 150px; 
-  -moz-border-radius:50%;
-  background-image: url(https://149619331.v2.pressablecdn.com/wp-content/uploads/2020/02/roses44.jpg) no-repeat; 
-}  
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vw;
+  width: 100vw;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.circle_img {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 50%;
+  background-image: url(https://149619331.v2.pressablecdn.com/wp-content/uploads/2020/02/roses44.jpg)
+    no-repeat;
+}
 
-.circle.img img { 
+.circle_img img {
   opacity: 0;
   filter: alpha(opacity=0);
-  }  
+}
 
-
-.circle.ring { 
+.circle_ring {
   width: 100px;
-  height: 120px; 
+  height: 120px;
   border: 20px solid pink;
-  margin: 40px auto 0; 
-}  
-
-.cut { 
-  position: absolute;
-  top: 25%; 
-  left: 25%; 
-  width: 50%; 
-  height: 50%;
-  background-color: white; 
-  border-radius: 50%; 
-  pointer-events: none;  
+  margin: 40px auto 0;
 }
 
-.circle.center { 
-  position: absolute; 
-  top: 50%; 
-  left:50%;   
-  border: solid white;
-  background-image: url("https://images.squarespace-cdn.com/content/v1/54d12e67e4b0450605520e77/1489617218827-JZN63I9LPHOENSDALHVS/San+Francisco+City+Hall+Wedding+Photography?format=750w");
-}
-  
-#c3 { 
-  width: 25px; 
-  height: 25px; 
-  left: 50%; 
-  border: 10px solid pink;  
-  position: relative;
-  
-}   
-
-.cut2 { 
+.cut {
   position: absolute;
-  top: 25%; 
-  left: 25%; 
+  top: 25%;
+  left: 25%;
   width: 50%;
-  height: 50%; 
-  background-color: white;  
-  border-radius: 50%; 
-  pointer-events: none;  
-}  
-#c4 {  
-  width: 200px; 
-  height: 200px; 
-  border-radius: 50%;  
-  border: 20px solid pink; 
-  background-image: url("https://i1.wp.com/bonbloemen.co.uk/wp-content/uploads/2020/01/Rose_Cappuccino1.jpg?w=1000&ssl=1");
+  height: 50%;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
 }
 
+.circle_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: solid white;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/54d12e67e4b0450605520e77/1489617218827-JZN63I9LPHOENSDALHVS/San+Francisco+City+Hall+Wedding+Photography?format=750w');
+}
 
+#c3 {
+  width: 25px;
+  height: 25px;
+  left: 50%;
+  border: 10px solid pink;
+  position: relative;
+}
 
-
+.cut2 {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+}
+#c4 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid pink;
+  background-image: url('https://i1.wp.com/bonbloemen.co.uk/wp-content/uploads/2020/01/Rose_Cappuccino1.jpg?w=1000&ssl=1');
+}
