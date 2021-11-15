@@ -1,18 +1,103 @@
-* { 
-    box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
-} 
-body { 
-    height: 100vh;
-    display: flex; 
+body {
+    margin: 0;
+  }
+ 
+   .Rings_container {
+    background: pink;
+    padding: 40px 20px 200px;
+  }
+ 
+   
+ 
+   .Rings_images {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50 0 200px;
+  }
+ 
+   .Rings_imagesSection1 {
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+ 
+   .Rings_ring1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 15px solid #df98a5;
+    position: absolute;
+    top: 260px;
+    transform: translateY(-150%);
+    left: 0;
+  }
+ 
+   .Rings_imagesSection1 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; 
+    top:70px; 
+    
+  }
+ 
+   .Rings_imagesSection2 {
+    width: 70%;
+    position: relative;
+    display: flex;
     justify-content: center; 
-    align-items: center;
-}   
+    position: relative;
+  }
+ 
+   .Rings_imagesSection2 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff; 
+    position:relative; 
+    z-index: 2; 
+    
+  }
 
-.circle1 { 
-width: 400px;
-clip-path: circle();
-}
+  .Rings_imagesSection3 { 
+      width: 400px;  
+      height: 400px;
+      display: flex; 
+      justify-content: center;  
+      object-fit: cover; 
+      
+    }  
+
+  .Rings_imagesSection img { 
+    height:200px; 
+    width:200px;
+    border-radius: 50%;
+    border: 5px solid #fff; 
+    z-index: 1;  
+    position: relative; 
+    object-fit: cover; 
+    height:200px; 
+    width:200px;
+  } 
+
+  .Rings_ring2 {  
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 12px solid #faf4f5;
+    position: absolute;
+    top: 60%;  
+    margin-left: 110px;
+    z-index: 2;
+    
+
+  }
+
+
+  
+
 
 
