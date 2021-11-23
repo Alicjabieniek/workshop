@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+.Rings_container {
+  background: pink;
+  padding: 40px 20px 70px;
+}
+
+.Rings_content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+.Rings_content p {
+  font-size: 1rem;
+  font-weight: 400;
+  /* letter-spacing: 1.2px; */
+  text-align: center;
+  line-height: 1.6rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Rings_content button {
+  border: 2px solid #fff;
+  color: black;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 10px 35px;
+  border-radius: 3px;
+  margin: 20px auto 0;
+  display: flex;
+}
+
+.Rings_images {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 0 200px;
+}
+
+.Rings_imagesSection1 {
+  width: 30%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Rings_ring1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 15px solid #df98a5;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+} 
+
+
+
+.Rings_imagesSection1 img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Rings_imagesSection2 {
+  width: 70%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Rings_imagesSection2 img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid #fff;
+}
