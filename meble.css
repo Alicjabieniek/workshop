@@ -10,6 +10,7 @@ body {
     background: url("room.jpg");
     
     }
+ 
 ul {
     list-style-type: none;
     margin: 0;
@@ -71,21 +72,11 @@ padding: 12px 40px;
   margin-left: 40px;  
   font-size: 35px;
 }     
-
-
-
-     
-
-
-
-
-    
-
 .Furniture_section:hover {
     background: rgb(241, 161, 188) !important;
     transform: scale(1.12); 
     color:deeppink;  
-    position:fixed;
+    
 }
 
 
@@ -101,7 +92,14 @@ padding: 12px 40px;
     border: 3 px solid black; 
     padding: 50px;  
     
-}  
+}   
+
+.circle {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #184d3c;
+  }
 
 
 .wrapper { 
@@ -120,7 +118,7 @@ padding: 12px 40px;
     font-size: 30px;
     color:rgb(2, 3, 3); 
     line-height: 1; 
-    font-family: Arial, sans-serif; 
+    font-family: Geraldine, sans-serif; 
     font-weight: 100; 
     cursor: pointer; 
     transition: all .3s ease; 
