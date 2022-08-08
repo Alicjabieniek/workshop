@@ -43,11 +43,23 @@ li a:hover:not(.active) {
 
 
 h1 {  
-font-size: 60px; 
+font-size: 70px; 
 font-style: var(19px); 
-text-align: center; 
+text-align: center;  
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/chunkfive.eot'); 
+    src: url('fonts/chunkfive.eot?#iefix') 
+    format('embedded-opentype'), 
+    url('fonts/chunkfive.woff') format('woff') 
+    url('fonts/chunkfive.ttf') 
+    format('truetype'), 
+    url('fonts/chunkfive.sgv#ChunkFiveRegular') 
+    format('svg');}
 
-} 
+}
+
+
 
 .Headline_image img { 
    object-fit: cover;
